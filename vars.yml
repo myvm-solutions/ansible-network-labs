@@ -1,5 +1,5 @@
 studentid: 109
-studentrouter: R109-test
+studentrouter: R109
 ansible_network_os: ios
 dns_servers:
   - 8.8.8.8
