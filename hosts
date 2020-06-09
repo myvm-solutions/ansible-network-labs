@@ -9,6 +9,7 @@ juniper
 
 [cisco]
 R109 ansible_host=10.1.109.10
+ansible_connection=network_cli
 
 [cisco:vars]
 ansible_network_os=ios
