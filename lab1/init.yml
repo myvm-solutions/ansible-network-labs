@@ -5,7 +5,7 @@
   gather_facts: no
 
   vars:
-    banner_message: oops, you ran this playbook without reading it first!
+    banner_message: Welcome ro {{ inventory_hostname }}
 
   tasks:
   - name: configure {{ inventory_hostname }} hostname
